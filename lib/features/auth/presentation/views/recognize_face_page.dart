@@ -66,7 +66,7 @@ class _RecognizeFacePageState extends State<RecognizeFacePage> {
         var rotationCompensation =
             orientations[_cameraService.controller.value.deviceOrientation];
         if (rotationCompensation == null) return;
-        if (widget.camera.lensDirection == CameraLensDirection.front) {
+        if (widget.camera.lensDirection == CameraLensDirection.back) {
           rotationCompensation =
               (widget.camera.sensorOrientation + rotationCompensation) % 360;
         } else {
@@ -106,7 +106,7 @@ class _RecognizeFacePageState extends State<RecognizeFacePage> {
         'width': image.width,
         'height': image.height,
         'isFrontCamera':
-            widget.camera.lensDirection == CameraLensDirection.front,
+            widget.camera.lensDirection == CameraLensDirection.back,
         'face': faces.first
       });
 
