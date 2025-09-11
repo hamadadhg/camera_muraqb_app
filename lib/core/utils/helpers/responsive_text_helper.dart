@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:frapp/core/utils/helpers/get_scale_factor_helper.dart';
 
@@ -9,3 +10,4 @@ double responsiveTextHelper(
   double lowerLimit = fontSize * 0.8;
   return newFontSize.clamp(lowerLimit, upperLimit);
 }
+*/

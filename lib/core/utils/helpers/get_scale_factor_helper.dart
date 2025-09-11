@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 
 double getScaleFactorHelper({required BuildContext context}) {
@@ -10,3 +11,4 @@ double getScaleFactorHelper({required BuildContext context}) {
     return width / 1000;
   }
 }
+*/

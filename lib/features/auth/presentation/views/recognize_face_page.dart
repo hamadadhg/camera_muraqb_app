@@ -1,3 +1,4 @@
+/*
 import 'dart:io';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -66,7 +67,7 @@ class _RecognizeFacePageState extends State<RecognizeFacePage> {
         var rotationCompensation =
             orientations[_cameraService.controller.value.deviceOrientation];
         if (rotationCompensation == null) return;
-        if (widget.camera.lensDirection == CameraLensDirection.back) {
+        if (widget.camera.lensDirection == CameraLensDirection.front) {
           rotationCompensation =
               (widget.camera.sensorOrientation + rotationCompensation) % 360;
         } else {
@@ -106,7 +107,7 @@ class _RecognizeFacePageState extends State<RecognizeFacePage> {
         'width': image.width,
         'height': image.height,
         'isFrontCamera':
-            widget.camera.lensDirection == CameraLensDirection.back,
+            widget.camera.lensDirection == CameraLensDirection.front,
         'face': faces.first
       });
 
@@ -164,3 +165,4 @@ class _RecognizeFacePageState extends State<RecognizeFacePage> {
     );
   }
 }
+*/

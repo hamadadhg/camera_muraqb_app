@@ -1,3 +1,4 @@
+/*
 import 'dart:typed_data';
 import 'package:camera/camera.dart';
 import 'package:image/image.dart' as img;
@@ -82,3 +83,4 @@ class CameraService {
     //if initialized is true so dispose and make isInitialized is false because i finish
   }
 }
+*/
