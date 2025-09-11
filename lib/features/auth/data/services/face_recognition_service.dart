@@ -1,4 +1,3 @@
-/*
 import 'dart:io';
 import 'dart:math';
 import 'dart:typed_data';
@@ -180,4 +179,3 @@ class FaceRecognitionService {
     _isInitialized = false;
   }
 }
-*/

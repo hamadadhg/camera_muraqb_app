@@ -1,4 +1,3 @@
-/*
 import 'package:flutter/material.dart';
 import 'package:frapp/core/utils/helpers/responsive_text_helper.dart';
 
@@ -31,4 +30,3 @@ abstract class StyleToTexts {
     );
   }
 }
-*/

@@ -1,4 +1,3 @@
-/*
 import 'package:flutter/material.dart';
 import 'package:frapp/core/utils/styles/style_to_colors.dart';
 import 'package:frapp/core/utils/styles/style_to_texts.dart';
@@ -116,4 +115,3 @@ class _RegisteredFacesPageState extends State<RegisteredFacesPage> {
     );
   }
 }
-*/

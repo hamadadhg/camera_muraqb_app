@@ -1,4 +1,3 @@
-/*
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:frapp/core/utils/styles/style_to_colors.dart';
@@ -37,4 +36,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-*/

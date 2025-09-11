@@ -1,4 +1,3 @@
-/*
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'package:frapp/core/utils/styles/style_to_texts.dart';
@@ -70,4 +69,3 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-*/

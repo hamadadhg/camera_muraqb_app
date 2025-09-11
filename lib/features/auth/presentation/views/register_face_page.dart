@@ -1,4 +1,3 @@
-/*
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:frapp/core/utils/styles/style_to_colors.dart';
@@ -174,4 +173,3 @@ class _RegisterFacePageState extends State<RegisterFacePage> {
     );
   }
 }
-*/

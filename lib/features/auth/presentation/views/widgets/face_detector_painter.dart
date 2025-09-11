@@ -1,4 +1,3 @@
-/*
 import 'dart:io';
 import 'dart:ui' as ui;
 import 'package:camera/camera.dart';
@@ -162,4 +161,3 @@ class FaceDetectorPainter extends CustomPainter {
     //this method to tell CustomPainter if you know this face and size this image i mean you draw it previous so return false because Nothing changed you're looking at the same faces and image, so no need to repaint, if return true Something changed(like faces or image size), so you should repaint
   }
 }
-*/
